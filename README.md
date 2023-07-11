@@ -25,7 +25,6 @@ Hackintosh EFI for Gigabyte B760M GAMING DDR4
 - [x] OpenCore GUI
 - [x] Window 10 dual boot
 - [x] Ethernet
-- [x] Sleep/Wake
 - [x] USB Mapping
 - [x] GPU temperature monitoring
 - [x] NVMe drives
@@ -34,9 +33,9 @@ Hackintosh EFI for Gigabyte B760M GAMING DDR4
 <summary><strong>What's not working ⚠️</strong></summary>
 
 
-
+- [ ] CPU temperature monitoring - works in Intel Power Gadget, but not in monitering software like stats
 - [ ] Wifi/Bluetooth - get a Broadcom card for Wifi
-
+- [ ] Sleep/Wake - sometimes not waking up from sleep
 
 <summary><strong>Untested ❔</strong></summary>
 

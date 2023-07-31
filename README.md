@@ -2,7 +2,7 @@
 Hackintosh EFI for Gigabyte B760M GAMING DDR4
 ## Software
 |  macOS     |Monterey 12.7   |
-| ------------- |-------------| 
+| :------------- |-------------| 
 |OpenCore    |  0.9.2  | 
 
 
@@ -33,8 +33,8 @@ Hackintosh EFI for Gigabyte B760M GAMING DDR4
 <summary><strong>What's not working ⚠️</strong></summary>
 
 
-- [ ] CPU temperature monitoring - works in Intel Power Gadget, but not in monitering software like stats
-- [ ] Wifi/Bluetooth - get a Broadcom card for Wifi
+- [ ] CPU temperature monitoring - works in Intel Power Gadget, but not in monitoring software like stats (See: [Opencore Guide](https://dortania.github.io/OpenCore-Install-Guide/troubleshooting/extended/post-issues.html#no-temperature-fan-sensor-output) - iStat Menus doesn't yet support MacPro7,1 readouts)
+- [ ] Wifi/Bluetooth - get a Broadcom card for Wifi (Caution: Wifi may not working with VT-d on)
 - [ ] Sleep/Wake - sometimes not waking up from sleep
 
 <summary><strong>Untested ❔</strong></summary>
